@@ -7,16 +7,12 @@ public class Name {
     private String user;
     private String password;
 
-    public Name() {
-
-    }
-
     public Name(String user, String password) {
         this.user = user;
         this.password = password;
     }
 
-    public String gerUser() {
+    public String getUser() {
         return user;
     }
 
